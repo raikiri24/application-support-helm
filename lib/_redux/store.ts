@@ -6,7 +6,6 @@ import editSaaSSlice from "./slices/editSaaSSlice";
 import loginSlice from "./slices/loginSlice";
 import currentPathSlice from "./slices/currentPathSlice";
 import sideNavDocumentationSlice from "./slices/sidenavDocumentationSlice";
-import nextWeekActivitySlice from "./slices/createNextWeekActivity";
 
 const store = configureStore({
   reducer: {
@@ -17,7 +16,6 @@ const store = configureStore({
     reroute: currentPathSlice.reducer,
     editSaaS: editSaaSSlice.reducer,
     sideNavDoc: sideNavDocumentationSlice.reducer,
-    nextWeekActivity: nextWeekActivitySlice.reducer,
   },
 });
 
