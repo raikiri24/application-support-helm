@@ -5,7 +5,7 @@ import NavigationSubHeader from "@/components/navigation-subheader";
 import store from "@/lib/_redux/store";
 import React from "react";
 import { Provider } from "react-redux";
-const DocumentTrackingLayout = ({ children }: React.PropsWithChildren) => {
+const FaqsLayout = ({ children }: React.PropsWithChildren) => {
   return (
     <Provider store={store}>
       <NavigationHeader />
@@ -16,4 +16,4 @@ const DocumentTrackingLayout = ({ children }: React.PropsWithChildren) => {
   );
 };
 
-export default DocumentTrackingLayout;
+export default FaqsLayout;
