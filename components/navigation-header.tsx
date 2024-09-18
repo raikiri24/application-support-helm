@@ -22,7 +22,7 @@ import Image from "next/image";
 const NavigationHeader = () => {
   const { setTheme } = useTheme();
   return (
-    <NavigationMenu className=" py-2  max-w-full justify-between px-10 ">
+    <NavigationMenu className=" py-2  max-w-full justify-between px-10">
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link
